@@ -16,8 +16,7 @@ class Content extends Component {
         <ShowCard
           image={key.image}
           name={key.name}
-          oldprice={key.oldprice}
-          newprice={key.newprice}
+          price={key.price}
           des={key.des}
         />
       );
@@ -32,8 +31,7 @@ class Content extends Component {
         key={key.id}
         image={key.image}
         name={key.name}
-        oldprice={key.oldprice}
-        newprice={key.newprice}
+        price={key.price}
         des={key.des}
       />
     ));
@@ -46,8 +44,7 @@ class Content extends Component {
         key={key.id}
         image={key.image}
         name={key.name}
-        oldprice={key.oldprice}
-        newprice={key.newprice}
+        price={key.price}
         des={key.des}
       />
     ));
@@ -60,8 +57,7 @@ class Content extends Component {
         key={key.id}
         image={key.image}
         name={key.name}
-        oldprice={key.oldprice}
-        newprice={key.newprice}
+        price={key.price}
         des={key.des}
       />
     ));

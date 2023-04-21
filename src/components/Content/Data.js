@@ -5,16 +5,14 @@ export function Data() {
         name: "Product1",
         image:"images/thoitran3.jpg",
         type: "M",
-        oldprice: 60000,
-        newprice: 35000,
+        price: 60000,
         des: "DEP",
       },
       {
         name: "Product2",
         image: "images/thoitrang2.jpg",
         type: "M",
-        oldprice: 50000,
-        newprice: 30000,
+        price: 50000,
         des: "DEP",
       },
       {
@@ -29,8 +27,8 @@ export function Data() {
         name: "Product4",
         image: "images/thoitrang2.jpg",
         type: "C",
-        oldprice: 50000,
-        newprice: 25000,
+        price: 50000,
+
         des: "DEP",
       },
     ];

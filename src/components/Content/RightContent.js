@@ -13,8 +13,7 @@ class RightContent extends Component {
                         {
                             products.map(key =>
                                 <ShowCard
-                                    oldprice={key.oldprice}
-                                    newprice={key.oldprice}
+                                    price={key.oldprice}
                                     name={key.name}
                                     des={key.des}
                                     image={key.image} />)
